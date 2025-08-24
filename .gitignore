@@ -1,0 +1,41 @@
+# Virtual environment folders
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Data files to exclude (personal/runtime data)
+data/expenses.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# Logs and SQLite files
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments (Windows specific too)
+Lib/
+Scripts/
+pyvenv.cfg
+
