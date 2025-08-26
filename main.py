@@ -127,10 +127,6 @@ def monthly_bar_chart(expense_service):
     year = int(year_input) if year_input.isdigit() else None
     plot_monthly_bar_chart(expense_service.load_all_expenses(), year)
 
-
-# New handlers to export CSV and PDF for category report
-
-
 def export_category_report_csv(expense_service):
     generate_category_report(expense_service.load_all_expenses(), export_csv=True)
 
